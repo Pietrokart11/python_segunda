@@ -1,0 +1,16 @@
+# Pede a frase ou palavra ao usuário
+frase = input("Digite uma frase: ")
+
+# Define quais são as vogais (maiúsculas e minúsculas)
+vogais = "aeiouAEIOU"
+
+# Cria um contador começando em zero
+contador = 0
+
+# Passa por cada letra do texto informado
+for letra in frase:
+    if letra in vogais:
+        contador += 1
+
+# Exibe o resultado final de forma simples
+print("Número de vogais:", contador)
