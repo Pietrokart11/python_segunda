@@ -22,5 +22,5 @@ async def economia(ctx, minutos_banho: int, aparelhos_tomada: int):
     await ctx.send(f"Seus hábitos custam cerca de **R$ {total_prejuizo:.2f} por ano**! Esse dinheiro vai para o lixo junto com os recursos do planeta.")
 
 # 3. Inicialização usando o seu token da atividade anterior
-bot.run("SEU_TOKEN_AQUI")
+bot.run("Token")
 
